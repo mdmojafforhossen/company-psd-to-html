@@ -1,0 +1,170 @@
+
+
+ /*==========Extra small devices (portrait phones, less than 576px)===========*/
+@media (max-width: 575.98px) {
+/*==========common padding=====*/
+	.c_padding {
+    padding: 60px 0px !important;
+}
+/*=========common title=======*/
+	.common_title h1 {
+    font-size: 30px !important;
+}
+.common_title p {
+    margin-top: 30px !important;
+    text-align: justify !important;
+
+}
+/*=======banner strat=======*/
+	.banner_content {
+    padding-top: 180px !important;
+    padding-bottom: 80px !important;
+}
+	.banner_content h1 {
+    font-size: 38px !important;
+    text-align: center;
+}
+.banner_content h2 {
+    font-size: 28px !important;
+    text-align: center;
+}
+/*=============counter strat============*/
+.counter{
+	padding: 60px 0px !important;
+}
+.single_counter h2 {
+    font-size: 28px !important;
+}
+/*==========footer top=============*/
+.ft_content h2 {
+    font-size: 18px !important;
+}
+.ft_p {
+    margin-top: 9px !important;
+}
+/*===========footer strat===========*/
+.footer_content p {
+    font-size: 14px;
+    text-align: center;
+}
+.footer_right {
+    text-align: center !important;
+}
+
+}
+
+/*=====================Small devices (landscape phones, 576px and up)======================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*==========common padding=====*/
+	.c_padding {
+    padding: 75px 0px !important;
+}
+/*=========common title=======*/
+	.common_title h1 {
+    font-size: 55px !important;
+}
+.common_title p {
+    margin-top: 45px !important;
+    text-align: justify !important;
+
+}
+
+/*=======banner strat=======*/
+	.banner_content {
+    padding-top: 300px !important;
+    padding-bottom: 100px !important;
+}
+	.banner_content h1 {
+    font-size: 55px !important;
+    text-align: center;
+}
+.banner_content h2 {
+    font-size: 38px !important;
+    text-align: center;
+}
+/*=============team strat===========*/
+.sm_extra{
+    margin: auto;
+    margin-top: 17px;
+}
+.t_content h4 {
+    margin: 10px 0px !important;
+}
+/*=============counter strat============*/
+.counter{
+	padding: 75px 0px !important;
+}
+.single_counter h2 {
+    font-size: 38px !important;
+}
+
+/*===========footer strat==========*/
+.footer_content p {
+    font-size: 14px;
+    text-align: center;
+}
+.footer_right {
+    text-align: center !important;
+}
+
+}
+
+/*===================Medium devices (tablets, 768px and up)=======================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*==========common padding=====*/
+	.c_padding {
+    padding: 75px 0px !important;
+}
+/*=========common title=======*/
+	.common_title h1 {
+    font-size: 55px !important;
+}
+.common_title p {
+    margin-top: 45px !important;
+}
+	/*=======banner strat=======*/
+	.banner_content {
+    padding-top: 300px !important;
+    padding-bottom: 100px !important;
+}
+	.banner_content h1 {
+	margin-right: 25px;
+    font-size: 55px !important;
+}
+.banner_content h2 {
+    font-size: 38px !important;
+}
+/*=============team strat===========*/
+
+.t_content h4 {
+    margin: 10px 0px !important;
+}
+/*=============counter strat============*/
+.counter{
+	padding: 75px 0px !important;
+}
+.single_counter h2 {
+    font-size: 38px !important;
+}
+
+/*===========footer strat==========*/
+.footer_content p {
+    font-size: 14px;
+}
+
+}
+
+/*======================Large devices (desktops, 992px and up)=========================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*===========about us section=============*/
+    .s_title h6 {
+    font-size: 14px;
+}
+
+}
+/*===============Extra large devices (large desktops, 1200px and up)==========================*/
+
+
+@media (min-width: 1200px) {
+
+}

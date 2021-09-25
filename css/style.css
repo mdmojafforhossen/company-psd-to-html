@@ -1,0 +1,356 @@
+
+
+
+h1,h2,h3,h5,h6{
+	font-family:'Roboto', sans-serif; 
+}
+a{
+	text-decoration: none !important;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*==common padding====*/
+.c_padding{
+	padding: 100px 0px;
+}
+
+/*===============common title Strat==============*/
+.common_title h1{
+	margin-bottom: 15px;
+	font-size: 61px;
+	color: #a95e39;
+}
+.common_title hr {
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+.common_title p {
+	line-height: 22px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: 600;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+/*===============common title End==============*/
+
+/*===========header strat===============*/
+header.header {
+	background:linear-gradient(#00000036,#00000036) ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.nav_bar ul li{
+	padding: 0px 8px;
+	transition: .5s ease;
+}
+.nav_bar ul li:hover{
+	background-color: gainsboro;
+}
+.nav_bar ul li a{
+	text-transform: uppercase;
+	color: #fcf9f7 !important;
+	transition: .6s ease;
+}
+.nav_bar ul li a:hover{
+	color: black !important;
+}
+/*============header end===============*/
+/*=================banner strat====================*/
+.banner{
+	background-image:url(../img/banner.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.banner_content{
+	padding-top: 380px;
+	padding-bottom: 100px;
+	text-align: right;
+}
+.banner_content h1{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 72px;
+    color: #fcf9f7;
+}
+.banner_content h2{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	 color: #fcf9f7;
+}
+/*=================banner end====================*/
+
+/*=================Team Section Strat====================*/
+.s_team {
+    border: 3px solid darkred;
+    transition: .3s ease;
+}
+.s_team:hover{
+    box-shadow: 3px 4px 6px 1px;
+}
+.t_content{
+	padding: 10px;
+}
+.t_content h4{
+	margin: 15px 0px;
+}
+/*=================Team Section End====================*/
+ /*================counter section strat================*/
+ .counter{
+ 	padding: 100px 0px;
+ 	background-color: #1f3138;
+ }
+ .single_counter{
+ 	text-align: center;
+ }
+ .single_counter h2{
+ 	font-size: 76px;
+ 	color:#88543b;
+ }
+ .single_counter p{
+ 	color: white;
+ 	text-transform: uppercase;
+ }
+ /*================counter section end================*/
+ /*========================About us ection strat=================*/
+ .about_us{
+ 	background-color: #F1F1F1;
+ }
+ .right_ab_us{
+ 	padding: 20px;
+ 	border: 1px solid #000;
+ }
+.lombo{
+    margin-bottom: 0;
+    font-size: 30px;
+    line-height: 25px;
+}
+ .s_title {
+ 	padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 3px solid grey;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+.s_title h6{
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+ /*========================About us ection end=================*/
+
+ /*=====================Contact Us section strat================*/
+ .contact_us{
+ 	background-color: #1f3138;
+ }
+ .contact h1{
+ 	color: white !important;
+ }
+ .contact p{
+ 	color: white !important;
+ }
+ .contact_form input{
+ 	background-color: transparent !important;
+ 	border-left: none !important;
+ 	border-right: none !important;
+ 	border-top: none !important;
+ 	border-bottom-left-radius:0 !important;
+ 	border-bottom-right-radius:0 !important;
+ 	color: white !important;
+
+ }
+ .contact_form input:focus{
+ 	box-shadow: none !important;
+ 	color: white !important;
+ }
+
+ .contact_form select{
+ 	background-color: transparent !important;
+ 	border-left: none !important;
+ 	border-right: none !important;
+ 	border-top: none !important;
+ 	border-bottom-left-radius:0 !important;
+ 	border-bottom-right-radius:0 !important;
+ 	color: white !important;
+ }
+ .contact_form select:focus{
+ 	box-shadow: none !important;
+ 	color: white !important;
+ }
+
+ .contact_form option{
+ 	background-color: transparent !important;
+ 	border-left: none !important;
+ 	border-right: none !important;
+ 	border-top: none !important;
+ 	border-bottom-left-radius:0 !important;
+ 	border-bottom-right-radius:0 !important;
+ 	color: black !important;
+ }
+  .contact_form textarea{
+ 	background-color: transparent !important;
+ 	border-left: none !important;
+ 	border-right: none !important;
+ 	border-top: none !important;
+ 	border-bottom-left-radius:0 !important;
+ 	border-bottom-right-radius:0 !important;
+ 	color: white !important;
+ }
+  .contact_form textarea:focus{
+ 	box-shadow: none !important;
+ 	color: white !important;
+ }
+ /*=====================Contact Us section end================*/
+
+  /*=======================gallery section strat=======================*/
+  .gallery{
+  	padding-bottom: 0px !important;
+  }
+  .f_width{}
+
+  /*owl carosul*/
+  .owl-nav {
+    background: gainsboro;
+}
+  button.owl-prev {
+    font-size: 30px !important;
+}
+  button.owl-next {
+  	position: absolute;
+  	right: 0;
+    font-size: 30px !important;
+}
+  button.owl-next:hover{
+  	border-radius: 50% !important;
+ background-color: orange !important;
+}
+  button.owl-prev:hover{
+  	border-radius: 50% !important;
+ background-color: orange !important;
+}
+button.owl-next span{
+    padding: 0px 16px;
+    border: 1px solid red !important;
+	border-radius: 50% !important;
+
+}
+button.owl-prev{
+}
+button.owl-prev span{
+	border-radius: 50% !important;
+
+    padding: 0px 16px;
+    border: 1px solid red !important;
+}
+  /*=======================gallery section end=======================*/
+
+  /*=======================FOOTER TO SECTION STRAT=======================*/
+  .footer_top{
+    padding: 60px 0px;
+    background-color: #1b2c33;
+  }
+  .ft_content h2{
+    font-size: 24px;
+  }
+  .ft_p{
+    margin-bottom: 0;
+    margin-top: 21px;
+  }
+  /*=======================FOOTER TO SECTION END=======================*/
+  /*=======================FOOTER  SECTION STRAT=======================*/
+  .footer{
+    border-top: 1px solid white;
+    padding: 20px 0px;
+    background-color: #000000;
+  }
+  .footer_right {
+    text-align: right;
+}
+.footer_right ul li{
+     border: 1px solid;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 3px;
+}
+.footer_right ul li a{}
+.footer_right ul li a i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+  /*=======================FOOTER  SECTION END=======================*/
+
+  /*===================Loader======================*/
+
+#loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    -o-transition: opacity .3s ease-out, visibility 0s linear .3s;
+    transition: opacity .3s ease-out, visibility 0s linear .3s;
+    z-index: 999;
+}
+
+#loader.show {
+    -webkit-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    -o-transition: opacity .6s ease-out, visibility 0s linear 0s;
+    transition: opacity .6s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+#loader .loader {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 5px solid #dddddd;
+    border-top: 5px solid #EF233C;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+===========================
+
